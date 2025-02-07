@@ -44,3 +44,9 @@ func Test_Problem55(t *testing.T) {
 	}
 	fmt.Printf("\n\n\n")
 }
+
+func Test_jumpGamePlus(t *testing.T) {
+	fmt.Println(jumpGamePlus([]int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 10))
+	fmt.Println(jumpGamePlus([]int{1, 1, 1, -5, 1}, 4))
+	fmt.Println(jumpGamePlus([]int{1, 1, 1, -5, 1}, 2))
+}
